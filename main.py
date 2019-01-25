@@ -5,4 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def mainroute():
-    return 'akosfhjpsfjpisfgdji'
+    return 'magtzet'
+
+app.run()
