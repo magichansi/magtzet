@@ -1,11 +1,12 @@
 #!/usr/bin/python
-from flask import Flask
+from flask import Flask,Response
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def mainroute():
-    return 'magtzet'
+    return Response("magtzet")
 
-app.run()
+if __name__ == "__main__":
+    app.run()
